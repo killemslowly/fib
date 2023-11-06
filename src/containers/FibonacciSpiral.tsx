@@ -16,7 +16,7 @@ export const FibonacciSpiral: React.FC<{ iterationsCount: number }> = ({ iterati
 
 
     const reportWindowSize = useDebounce(() => {
-        setMinSize(Math.min(window.innerWidth, window.innerHeight) - 45);
+        setMinSize(Math.min(window.innerWidth, window.innerHeight) - 50);
     }, 100);
 
     useEffect(() => {

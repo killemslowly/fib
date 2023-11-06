@@ -2,7 +2,7 @@ export const contentStyle: React.CSSProperties = {
     textAlign: 'center',
     width: "100%",
     height: "100%",
-    marginTop: "5px"
+    marginTop: "10px"
 };
 
 export const numericInputStyleConfig = {
